@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\DotNetWarren.csproj": {}
+    "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\DotNetWarren.csproj": {
+    "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\DotNetWarren.csproj",
-        "projectName": "DotNetWarren",
-        "projectPath": "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\DotNetWarren.csproj",
+        "projectUniqueName": "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\TodoApi\\TodoApi.csproj",
+        "projectName": "TodoApi",
+        "projectPath": "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\eduardo.rodrigues_wa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\obj\\",
+        "outputPath": "C:\\Users\\eduardo.rodrigues_wa\\WarrenDesafios\\DotNetWarren\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduardo.rodrigues_wa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
