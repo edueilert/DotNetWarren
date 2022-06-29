@@ -1,4 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace TodoApi.Controllers;
 
@@ -19,12 +23,11 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<CustomerData> Get()
+    public IEnumerable<WeatherForecast> Get()
     {
-        return Enumerable.Range(1, 5).Select(index => new CustomerData
+        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
-            nascimento = DateTime.Now.AddDays(index),
-            numero = Random.Shared.Next(-20, 55),
+            
         })
         .ToArray();
     }

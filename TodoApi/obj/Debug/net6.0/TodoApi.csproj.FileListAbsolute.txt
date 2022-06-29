@@ -1,5 +1,6 @@
 C:\Users\eduardo.rodrigues_wa\WarrenDesafios\DotNetWarren\TodoApi\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\eduardo.rodrigues_wa\WarrenDesafios\DotNetWarren\TodoApi\bin\Debug\net6.0\appsettings.json
+C:\Users\eduardo.rodrigues_wa\WarrenDesafios\DotNetWarren\TodoApi\bin\Debug\net6.0\task.json
 C:\Users\eduardo.rodrigues_wa\WarrenDesafios\DotNetWarren\TodoApi\bin\Debug\net6.0\TodoApi.exe
 C:\Users\eduardo.rodrigues_wa\WarrenDesafios\DotNetWarren\TodoApi\bin\Debug\net6.0\TodoApi.deps.json
 C:\Users\eduardo.rodrigues_wa\WarrenDesafios\DotNetWarren\TodoApi\bin\Debug\net6.0\TodoApi.runtimeconfig.json

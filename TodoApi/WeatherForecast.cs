@@ -1,6 +1,8 @@
+using System;
+
 namespace TodoApi;
 
-public class CustomerData
+public class WeatherForecast
 {
     public long Id { get; set; }
     public string? nomeCompleto { get; set; }
@@ -15,4 +17,6 @@ public class CustomerData
     public string? cep { get; set; }
     public string? endereco { get; set; }
     public int numero { get; set; }
+    public DateTime Date { get; internal set; }
+    public int TemperatureC { get; internal set; }
 }
