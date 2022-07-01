@@ -16,6 +16,4 @@ public class WeatherForecast
     public string? cep { get; set; }
     public string? endereco { get; set; }
     public int numero { get; set; }
-    public DateTime Date { get; internal set; }
-    public int TemperatureC { get; internal set; }
 }
