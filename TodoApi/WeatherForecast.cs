@@ -1,4 +1,5 @@
 using System;
+
 namespace TodoApi;
 
 public class WeatherForecast
@@ -14,6 +15,12 @@ public class WeatherForecast
     public bool whatsapp { get; set; }
     public string? pais { get; set; }
     public string? cep { get; set; }
+
+    internal IEnumerable<WeatherForecast> GetAll()
+    {
+        throw new NotImplementedException();
+    }
+
     public string? endereco { get; set; }
     public int numero { get; set; }
 }

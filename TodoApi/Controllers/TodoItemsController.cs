@@ -20,16 +20,16 @@ namespace TodoApi.Controllers
 //         //     _context = context;
 //         // }
 
-//         // GET: api/TodoItems
-//         // [HttpGet]
-//         // public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
-//         // {
-//         //     if (_context.GetTodoItems() == null)
-//         //     {
-//         //         return NotFound();
-//         //     }
-//         //     return await _context.GetTodoItems().ToListAsync();
-//         // }
+        // GET: api/TodoItems
+        // [HttpGet]
+        // public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
+        // {
+        //     if (_context.GetTodoItems() == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //     return await _context.GetTodoItems().ToListAsync();
+        // }
 
 //         // GET: api/TodoItems/5
 //         // [HttpGet("{id}")]

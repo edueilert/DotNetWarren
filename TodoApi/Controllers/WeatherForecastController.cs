@@ -6,29 +6,23 @@ using Microsoft.Extensions.Logging;
 
 namespace TodoApi.Controllers;
 
+[Produces("application/json")]
 [ApiController]
-[Route("[controller]")]
+[Route("api/Todo")]
 public class WeatherForecastController : ControllerBase
-{
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
-    {
-        _logger = logger;
-    }
-
-    [HttpGet(Name = "GetWeatherForecast")]
+{   WeatherForecast _todoForescast = new WeatherForecast();
+    [Route("~/api/GetAllTodos")]
+    [HttpGet]
     public IEnumerable<WeatherForecast> Get()
-    {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
-            
-        })
-        .ToArray();
-    }
+            return _todoForescast.GetAll();
+        }
+
+    [Route("~/api/AddTodo")]
+    [HttpGet]
+    public IEnumerable<WeatherForecast> Post()
+        {
+            return _todoForescast.Add();
+        }
+    
 }
