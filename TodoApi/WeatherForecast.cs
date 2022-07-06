@@ -1,4 +1,5 @@
 using System;
+using TudoApi;
 
 namespace TodoApi;
 
@@ -22,5 +23,23 @@ public class WeatherForecast
     }
 
     public string? endereco { get; set; }
+
+    internal IEnumerable<WeatherForecast> Add(object nomeCompleto)
+    {
+        throw new NotImplementedException();
+    }
+
     public int numero { get; set; }
+    public object DataService { get; internal set; }
+    public object Clientes { get; internal set; }
+
+    internal object Save(WeatherForecast? value)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal List<DataService> ToList()
+    {
+        throw new NotImplementedException();
+    }
 }
