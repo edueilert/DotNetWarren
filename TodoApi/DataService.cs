@@ -19,5 +19,10 @@ namespace TudoApi
 
         Data.Add(new WeatherForecast() { Id = 6, nomeCompleto = "Yasmin Ferreira", email = "yasmin.ferreira@warren.com", emailConfirmation = "yasmin.ferreira@warren.com", cpf = "99005577074", cellphone = "51995784393", nascimento = DateTime.FromOADate(25-03-2002), emailSms = false, whatsapp = true, pais = "Brasil", cep = "91550380", endereco = "Alameda Twitter dos Santos", numero = 36});
     }
-}
+
+        internal static IEnumerable<WeatherForecast> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
